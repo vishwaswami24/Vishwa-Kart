@@ -40,7 +40,6 @@ Then install the project dependencies with
 ```bash
 pip install -r requirements.txt
 ```
-
 Now you can run the project with this command
 ```bash
 python manage.py runserver
