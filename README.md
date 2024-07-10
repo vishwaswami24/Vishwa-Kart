@@ -10,7 +10,7 @@ Placeorder page - Used to place the order
 Cart page - Used to add products in the cart
 Contact page - Consists location, address, contact and email 
 
-Running this project
+##Running this project
 
 To get this project up and running you should start by having Python installed on your computer. It's advised you create a virtual environment to store your projects dependencies separately. You can install virtualenv with
 ```bash
