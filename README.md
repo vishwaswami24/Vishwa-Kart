@@ -34,19 +34,19 @@ Then install the project dependencies with
 ```bash
 pip install -r requirements.txt
 ```
-###**Clone the Repository**
+### **Clone the Repository**
 
 After installing the prerequisite files just clone the project:
 ```bash
 git clone https://github.com/Faishal003/Ecommerce-website-with-Django.git
 ```
-###**Create Superuser**
+### **Create Superuser**
 
 Run command in terminal:
 ```bash
 python manage.py createsuperuser
 ```
-###**Model Build**
+### **Model Build**
 
 After creating superuser, run the following commands in the Terminal:
 ```bash
