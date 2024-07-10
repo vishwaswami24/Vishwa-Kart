@@ -26,6 +26,12 @@ Clone or download this repository and open it in your editor of choice. In a ter
 ```bash
 virtualenv env
 ```
+### **Clone the Repository**
+
+After installing the prerequisite files just clone the project:
+```bash
+git clone https://github.com/vishwaswami24/ekart.git
+```
 That will create a new folder `env` in your project directory. Next activate it with this command on mac/linux:
 ```bash
 source env/bin/active
@@ -34,26 +40,7 @@ Then install the project dependencies with
 ```bash
 pip install -r requirements.txt
 ```
-### **Clone the Repository**
 
-After installing the prerequisite files just clone the project:
-```bash
-git clone https://github.com/Faishal003/Ecommerce-website-with-Django.git
-```
-### **Create Superuser**
-
-Run command in terminal:
-```bash
-python manage.py createsuperuser
-```
-### **Model Build**
-
-After creating superuser, run the following commands in the Terminal:
-```bash
-python manage.py makemigrations
-python manage.py migrate
-python manage.py makemigrations
-```
 Now you can run the project with this command
 ```bash
 python manage.py runserver
