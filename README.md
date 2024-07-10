@@ -1,5 +1,4 @@
-# Ekart
-Ecommerce static Website include
+# Ekart Ecommerce static Website 
 
 Login page - User authentication
 
