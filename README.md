@@ -136,7 +136,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Vishwa Swami**
 - GitHub: [@vishwaswami24](https://github.com/vishwaswami24)
-- LinkedIn: [Your LinkedIn Profile]
+- LinkedIn: [@vishwa-swami24](https://www.linkedin.com/in/vishwa-swami24/)
 
 ## 🙏 Acknowledgments
 
