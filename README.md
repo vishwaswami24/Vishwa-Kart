@@ -1,6 +1,6 @@
 # Vishwa-Kart 🛍️
 
-A modern, responsive e-commerce website built with React, TypeScript, and Tailwind CSS. Features a beautiful dark/light mode toggle, product catalog, shopping cart functionality, and fully responsive design.
+Vishwa-Kart is a modern, fully responsive e-commerce website specializing in premium tech accessories. Built with cutting-edge web technologies, it offers a seamless shopping experience with intuitive navigation, dynamic dark/light mode switching, and comprehensive product management features. The platform showcases a curated collection of high-quality gadgets including wireless headphones, smart watches, phone cases, and more, all presented in a sleek, professional interface that adapts perfectly to any device.
 
 ![Vishwa-Kart Preview](https://via.placeholder.com/800x400/1a1a1a/00ffff?text=Vishwa-Kart+E-commerce)
 
