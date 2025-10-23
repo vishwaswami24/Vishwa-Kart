@@ -2,7 +2,8 @@
 
 Vishwa-Kart is a modern, fully responsive e-commerce website specializing in premium tech accessories. Built with cutting-edge web technologies, it offers a seamless shopping experience with intuitive navigation, dynamic dark/light mode switching, and comprehensive product management features. The platform showcases a curated collection of high-quality gadgets including wireless headphones, smart watches, phone cases, and more, all presented in a sleek, professional interface that adapts perfectly to any device.
 
-![Vishwa-Kart Preview](https://via.placeholder.com/800x400/1a1a1a/00ffff?text=Vishwa-Kart+E-commerce)
+![ScreenRecording2025-10-24000424-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f1c9de6d-7aa0-4da7-8e20-a35f164f0ddc)
+
 
 ## 🌟 Features
 
