@@ -447,7 +447,7 @@ export default function VishwaEcommerce() {
           <div className="flex-1">
             <h4 className={`font-bold mb-6 text-sm uppercase tracking-wider ${isDarkMode ? 'text-white' : 'text-black'}`}>Quick Links</h4>
             <ul className="space-y-3">
-              {['Home', 'Products', 'Wishlist', 'About', 'Contact'].map((link) => (
+              {['Home', 'Products', 'About', 'Contact'].map((link) => (
                 <li key={link}><button title={link} onClick={() => setCurrentPage(link.toLowerCase())} className={`text-sm hover:text-cyan-400 transition flex items-center gap-2 group ${isDarkMode ? 'text-gray-500' : 'text-gray-600'}`}><span className="opacity-0 group-hover:opacity-100 transition">→</span> {link}</button></li>
               ))}
             </ul>
