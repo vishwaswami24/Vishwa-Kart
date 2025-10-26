@@ -43,7 +43,7 @@ export default function VishwaEcommerce() {
         <div className="max-w-7xl mx-auto px-4 md:px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2 cursor-pointer" onClick={() => setCurrentPage('home')}>
-              <span className="text-xl font-black tracking-tight">VISHWA</span>
+              <img src="/logo2.png" alt="Vishwa Logo" className="h-15" />
             </div>
   
             {/* Desktop Navigation */}
