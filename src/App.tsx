@@ -40,10 +40,10 @@ export default function VishwaEcommerce() {
   // Modern Header
     const Header = () => (
       <div className={`${isDarkMode ? 'bg-black text-white border-gray-800' : 'bg-white text-black border-gray-300'} fixed top-0 w-full z-50 border-b transition-colors`}>
-        <div className="max-w-7xl mx-auto px-4 md:px-6 py-4">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2 cursor-pointer" onClick={() => setCurrentPage('home')}>
-              <img src="/logo2.png" alt="Vishwa Logo" className="h-15" />
+              <img src="/logo2.png" alt="Vishwa Logo" className="h-17" />
             </div>
   
             {/* Desktop Navigation */}
