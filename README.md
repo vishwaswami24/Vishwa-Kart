@@ -1,19 +1,49 @@
 # Vishwa-Kart 🛍️
 
-Vishwa-Kart is a modern, fully responsive e-commerce website specializing in premium tech accessories. Built with cutting-edge web technologies, it offers a seamless shopping experience with intuitive navigation, dynamic dark/light mode switching, and comprehensive product management features. The platform showcases a curated collection of high-quality gadgets including wireless headphones, smart watches, phone cases, and more, all presented in a sleek, professional interface that adapts perfectly to any device.
+Vishwa-Kart is a **modern, fully responsive e-commerce website** specializing in premium tech accessories. Built with cutting-edge web technologies, it offers a seamless shopping experience with intuitive navigation, dynamic dark/light mode switching, and comprehensive product management features. The platform showcases a curated collection of high-quality gadgets including wireless headphones, smart watches, phone cases, and more, all presented in a sleek, professional interface that adapts perfectly to any device.
 
-![Vishwa-Kart Preview](https://via.placeholder.com/800x400/1a1a1a/00ffff?text=Vishwa-Kart+E-commerce)
+## ✨ What's New - UI Improvements
+
+### 🎨 Enhanced Visual Design
+- **Glassmorphism Effects**: Modern frosted glass UI elements with backdrop blur
+- **Gradient Animations**: Smooth animated gradients on buttons and text
+- **Advanced Shadows**: Multi-layered shadows with color-matched glows
+- **Improved Spacing**: Better visual hierarchy and breathing room
+- **Rounded Corners**: Softer, more modern border radius (2xl)
+
+### 🌟 Interactive Elements
+- **Hover Transformations**: Cards lift and scale on hover
+- **Animated Icons**: Smooth transitions and micro-interactions
+- **Gradient Buttons**: Animated background gradients
+- **Enhanced Product Cards**: Larger images, better layout, improved badges
+- **Custom Scrollbar**: Styled scrollbar with gradient colors
+
+### 🎭 Better Dark Mode
+- **Gradient Backgrounds**: Multi-color gradient backgrounds
+- **Improved Contrast**: Better text readability
+- **Subtle Animations**: Pulsing background effects
+- **Enhanced Borders**: Better border colors and hover states
+
+### 📱 Responsive Improvements
+- **Better Mobile Layout**: Optimized for all screen sizes
+- **Touch-Friendly**: Larger tap targets and better spacing
+- **Smooth Animations**: Performance-optimized transitions
+
+(ScreenRecording2025-10-24000424-ezgif.com-video-to-gif-converter.gif)
 
 ## 🌟 Features
 
 - **🌓 Dark/Light Mode Toggle**: Seamlessly switch between dark and light themes
 - **🛒 Shopping Cart**: Add/remove products with persistent cart state
 - **❤️ Wishlist**: Save favorite products for later
+- **🔍 Search Functionality**: Real-time product search by name or category
 - **📱 Fully Responsive**: Optimized for desktop, tablet, and mobile devices
 - **⚡ Fast Performance**: Built with Vite for lightning-fast development and builds
 - **🎨 Modern UI**: Clean, professional design with smooth animations
-- **🔍 Product Catalog**: Browse through curated tech accessories
-- **📄 Multiple Pages**: Home, Products, Cart, About, and Contact pages
+- **📄 Multiple Pages**: 15+ pages including Home, Products, Cart, About, Contact, Support pages, and more
+- **💳 Payment Icons**: Visa & Mastercard logos in footer
+- **📧 Newsletter Subscription**: Stay updated with latest offers
+- **🆘 Complete Help Center**: Track orders, returns, FAQ, payment info, account security
 
 ## 🛠️ Tech Stack
 
@@ -67,13 +97,12 @@ This will build the project and deploy it to the `gh-pages` branch.
 ```
 Vishwa-Kart/
 ├── public/
+│   ├── logo2.png        # Main logo
 │   └── vite.svg
 ├── src/
-│   ├── assets/
-│   ├── img/
-│   ├── App.tsx          # Main application component
+│   ├── App.tsx          # Main application component (all pages)
 │   ├── main.tsx         # Application entry point
-│   ├── index.css        # Global styles
+│   ├── index.css        # Global styles with animations
 │   └── style.css        # Additional styles
 ├── dist/                # Built files (generated)
 ├── package.json
@@ -86,13 +115,30 @@ Vishwa-Kart/
 
 ## 🎯 Key Components
 
+### Main Pages
 - **Header**: Navigation with dark/light mode toggle
 - **HomePage**: Hero section and featured products
-- **ProductsPage**: Full product catalog
+- **ProductsPage**: Full product catalog with search
+- **WishlistPage**: Saved favorite products
 - **CartPage**: Shopping cart management
-- **AboutPage**: Company information
-- **ContactPage**: Contact form and details
-- **Footer**: Links and social media
+- **AboutPage**: Company information and mission
+- **ContactPage**: Contact form with business hours and FAQ
+
+### Legal & Info Pages
+- **PrivacyPage**: Privacy policy details
+- **TermsPage**: Terms and conditions
+- **SitemapPage**: Complete site navigation
+
+### Support Pages
+- **TrackOrderPage**: Order tracking form
+- **ReturnsPage**: Return policy and refund process
+- **FAQPage**: Frequently asked questions
+- **HelpCenterPage**: Central hub for all support topics
+- **PaymentPage**: Payment methods and billing info
+- **AccountSecurityPage**: Account management and security
+
+### Components
+- **Footer**: Newsletter, links, social media, payment icons
 
 ## 🎨 Customization
 
@@ -106,7 +152,7 @@ const products: Product[] = [
     id: 9,
     name: 'New Product',
     price: 2999,
-    image: '🆕',
+    image: 'https://images.unsplash.com/photo-xxxxx?w=500&h=500&fit=crop',
     rating: 4.5,
     reviews: 50,
     category: 'New Category'
