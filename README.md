@@ -1,9 +1,37 @@
 # Vishwa-Kart 🛍️
 
-Vishwa-Kart is a modern, fully responsive e-commerce website specializing in premium tech accessories. Built with cutting-edge web technologies, it offers a seamless shopping experience with intuitive navigation, dynamic dark/light mode switching, and comprehensive product management features. The platform showcases a curated collection of high-quality gadgets including wireless headphones, smart watches, phone cases, and more, all presented in a sleek, professional interface that adapts perfectly to any device.
+Vishwa-Kart is a **modern, fully responsive e-commerce website** specializing in premium tech accessories. Built with cutting-edge web technologies, it offers a seamless shopping experience with intuitive navigation, dynamic dark/light mode switching, and comprehensive product management features. The platform showcases a curated collection of high-quality gadgets, including wireless headphones, smart watches, phone cases, and more, all presented in a sleek, professional interface that adapts perfectly to any device.
 
-![ScreenRecording2025-10-24000424-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f1c9de6d-7aa0-4da7-8e20-a35f164f0ddc)
+![Recording2026-02-25174726-ezgif com-optimize](https://github.com/user-attachments/assets/4ccb5198-89b9-454a-9927-f6c7d8834996)
 
+## ✨ What's New - UI Improvements
+
+### 🎨 Enhanced Visual Design
+- **Glassmorphism Effects**: Modern frosted glass UI elements with backdrop blur
+- **Gradient Animations**: Smooth animated gradients on buttons and text
+- **Advanced Shadows**: Multi-layered shadows with color-matched glows
+- **Improved Spacing**: Better visual hierarchy and breathing room
+- **Rounded Corners**: Softer, more modern border radius (2xl)
+
+### 🌟 Interactive Elements
+- **Hover Transformations**: Cards lift and scale on hover
+- **Animated Icons**: Smooth transitions and micro-interactions
+- **Gradient Buttons**: Animated background gradients
+- **Enhanced Product Cards**: Larger images, better layout, improved badges
+- **Custom Scrollbar**: Styled scrollbar with gradient colors
+
+### 🎭 Better Dark Mode
+- **Gradient Backgrounds**: Multi-color gradient backgrounds
+- **Improved Contrast**: Better text readability
+- **Subtle Animations**: Pulsing background effects
+- **Enhanced Borders**: Better border colors and hover states
+
+### 📱 Responsive Improvements
+- **Better Mobile Layout**: Optimized for all screen sizes
+- **Touch-Friendly**: Larger tap targets and better spacing
+- **Smooth Animations**: Performance-optimized transitions
+
+(ScreenRecording2025-10-24000424-ezgif.com-video-to-gif-converter.gif)
 
 ## 🌟 Features
 
@@ -136,7 +164,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Vishwa Swami**
 - GitHub: [@vishwaswami24](https://github.com/vishwaswami24)
-- LinkedIn: [@vishwa-swami24](https://www.linkedin.com/in/vishwa-swami24/)
+- LinkedIn: [Your LinkedIn Profile]
 
 ## 🙏 Acknowledgments
 
