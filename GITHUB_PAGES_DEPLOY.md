@@ -199,6 +199,93 @@ typescript
 - Check Node.js version compatibility
 - Ensure all dependencies are in package.json
 
+## How to Update Your Deployed App
+
+### Method 1: GitHub Actions (Automatic - Recommended)
+
+If you have GitHub Actions set up, simply push your changes to the master branch:
+
+```
+bash
+# 1. Make your code changes
+# 2. Stage the changes
+git add .
+
+# 3. Commit with a descriptive message
+git commit -m "Description of your changes"
+
+# 4. Push to GitHub
+git push origin master
+
+# GitHub Actions will automatically build and deploy!
+```
+
+### Method 2: Manual Deploy (Using gh-pages)
+
+```
+bash
+# 1. Make your code changes
+
+# 2. Build the project
+npm run build
+
+# 3. Deploy to GitHub Pages
+npm run deploy
+
+# Or use npx directly
+npx gh-pages -d dist
+```
+
+### Method 3: Force Clean Deploy
+
+If you need a completely fresh deployment:
+
+```
+bash
+# Remove the gh-pages branch locally
+git branch -D gh-pages
+
+# Remove remote gh-pages branch
+git push origin :gh-pages
+
+# Deploy fresh
+npm run deploy
+```
+
+### Common Update Scenarios
+
+#### Adding new features:
+```
+bash
+git add .
+git commit -m "Add new feature"
+git push origin master
+```
+
+#### Fixing bugs:
+```
+bash
+git add .
+git commit -m "Fix bug in cart"
+git push origin master
+```
+
+#### Updating dependencies:
+```
+bash
+npm update
+git add package.json package-lock.json
+git commit -m "Update dependencies"
+git push origin master
+```
+
+### Updating Tips
+
+1. **Check build output**: Always run `npm run build` locally first to catch any errors
+2. **Clear browser cache**: After updates, users may need to clear cache or use incognito mode
+3. **Wait for deployment**: GitHub Actions typically takes 1-3 minutes to complete
+4. **Check Actions tab**: Visit your repository's Actions tab to see deployment status
+
 ## Quick Commands Summary
 
 ```
