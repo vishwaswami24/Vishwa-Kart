@@ -67,7 +67,7 @@ export default function VishwaEcommerce() {
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2 cursor-pointer group" onClick={() => setCurrentPage('home')}>
-              <img src="/logo2.png" alt="Vishwa Logo" className="h-17 group- transition-transform" />
+              <img src="/Vishwa-Kart/logo2.png" alt="Vishwa Logo" className="h-17 group- transition-transform" />
             </div>
   
             {/* Desktop Navigation */}
@@ -907,7 +907,7 @@ export default function VishwaEcommerce() {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <img src="/logo2.png" alt="Vishwa Logo" className="h-12" />
+              <img src="/Vishwa-Kart/logo2.png" alt="Vishwa Logo" className="h-12" />
             </div>
             <p className={`text-sm mb-6 leading-relaxed ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>Premium tech accessories that enhance your digital lifestyle with quality and innovation. Your trusted partner for all tech needs.</p>
             <div className="flex gap-3 mb-6">
