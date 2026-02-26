@@ -1,6 +1,8 @@
 # Vishwa-Kart 🛍️
 
-Vishwa-Kart is a **modern, fully responsive e-commerce website** specializing in premium tech accessories. Built with cutting-edge web technologies, it offers a seamless shopping experience with intuitive navigation, dynamic dark/light mode switching, and comprehensive product management features. The platform showcases a curated collection of high-quality gadgets including wireless headphones, smart watches, phone cases, and more, all presented in a sleek, professional interface that adapts perfectly to any device.
+Vishwa-Kart is a **modern, fully responsive e-commerce website** specializing in premium tech accessories. Built with cutting-edge web technologies, it offers a seamless shopping experience with intuitive navigation, dynamic dark/light mode switching, and comprehensive product management features. The platform showcases a curated collection of high-quality gadgets, including wireless headphones, smart watches, phone cases, and more, all presented in a sleek, professional interface that adapts perfectly to any device.
+
+![Recording2026-02-25174726-ezgif com-optimize](https://github.com/user-attachments/assets/4ccb5198-89b9-454a-9927-f6c7d8834996)
 
 ## ✨ What's New - UI Improvements
 
@@ -36,14 +38,11 @@ Vishwa-Kart is a **modern, fully responsive e-commerce website** specializing in
 - **🌓 Dark/Light Mode Toggle**: Seamlessly switch between dark and light themes
 - **🛒 Shopping Cart**: Add/remove products with persistent cart state
 - **❤️ Wishlist**: Save favorite products for later
-- **🔍 Search Functionality**: Real-time product search by name or category
 - **📱 Fully Responsive**: Optimized for desktop, tablet, and mobile devices
 - **⚡ Fast Performance**: Built with Vite for lightning-fast development and builds
 - **🎨 Modern UI**: Clean, professional design with smooth animations
-- **📄 Multiple Pages**: 15+ pages including Home, Products, Cart, About, Contact, Support pages, and more
-- **💳 Payment Icons**: Visa & Mastercard logos in footer
-- **📧 Newsletter Subscription**: Stay updated with latest offers
-- **🆘 Complete Help Center**: Track orders, returns, FAQ, payment info, account security
+- **🔍 Product Catalog**: Browse through curated tech accessories
+- **📄 Multiple Pages**: Home, Products, Cart, About, and Contact pages
 
 ## 🛠️ Tech Stack
 
@@ -97,12 +96,13 @@ This will build the project and deploy it to the `gh-pages` branch.
 ```
 Vishwa-Kart/
 ├── public/
-│   ├── logo2.png        # Main logo
 │   └── vite.svg
 ├── src/
-│   ├── App.tsx          # Main application component (all pages)
+│   ├── assets/
+│   ├── img/
+│   ├── App.tsx          # Main application component
 │   ├── main.tsx         # Application entry point
-│   ├── index.css        # Global styles with animations
+│   ├── index.css        # Global styles
 │   └── style.css        # Additional styles
 ├── dist/                # Built files (generated)
 ├── package.json
@@ -115,30 +115,13 @@ Vishwa-Kart/
 
 ## 🎯 Key Components
 
-### Main Pages
 - **Header**: Navigation with dark/light mode toggle
 - **HomePage**: Hero section and featured products
-- **ProductsPage**: Full product catalog with search
-- **WishlistPage**: Saved favorite products
+- **ProductsPage**: Full product catalog
 - **CartPage**: Shopping cart management
-- **AboutPage**: Company information and mission
-- **ContactPage**: Contact form with business hours and FAQ
-
-### Legal & Info Pages
-- **PrivacyPage**: Privacy policy details
-- **TermsPage**: Terms and conditions
-- **SitemapPage**: Complete site navigation
-
-### Support Pages
-- **TrackOrderPage**: Order tracking form
-- **ReturnsPage**: Return policy and refund process
-- **FAQPage**: Frequently asked questions
-- **HelpCenterPage**: Central hub for all support topics
-- **PaymentPage**: Payment methods and billing info
-- **AccountSecurityPage**: Account management and security
-
-### Components
-- **Footer**: Newsletter, links, social media, payment icons
+- **AboutPage**: Company information
+- **ContactPage**: Contact form and details
+- **Footer**: Links and social media
 
 ## 🎨 Customization
 
@@ -152,7 +135,7 @@ const products: Product[] = [
     id: 9,
     name: 'New Product',
     price: 2999,
-    image: 'https://images.unsplash.com/photo-xxxxx?w=500&h=500&fit=crop',
+    image: '🆕',
     rating: 4.5,
     reviews: 50,
     category: 'New Category'
